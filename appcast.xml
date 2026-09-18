@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Kairo</title>
+        <item>
+            <title>0.1.4</title>
+            <pubDate>Fri, 18 Sep 2026 09:45:24 +0000</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/youranreus/kairo-releases/releases/tag/v0.1.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://youranreus.github.io/kairo-releases/release-notes/Kairo-v0.1.4-macos-universal.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/youranreus/kairo-releases/releases/download/v0.1.4/Kairo-v0.1.4-macos-universal.zip" length="7841245" type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
