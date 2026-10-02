@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kairo 0.3.3 更新说明</title>
+    <style>
+      :root { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.6; color: #1f2328; background: #ffffff; }
+      @media (prefers-color-scheme: dark) { :root { color: #f0f6fc; background: #0d1117; } }
+      body { max-width: 640px; margin: 0 auto; padding: 20px 24px; }
+      h2 { font-size: 1.15rem; margin-top: 1.4em; border-bottom: 1px solid rgba(128,128,128,0.2); padding-bottom: 0.3em; }
+      h3 { font-size: 0.95rem; color: #57606a; margin-top: 1em; }
+      @media (prefers-color-scheme: dark) { h3 { color: #8b949e; } }
+      ul { padding-left: 20px; margin: 0.4em 0; }
+      li { margin: 0.25em 0; }
+      .security { font-size: 0.85rem; color: #57606a; margin-top: 1.5em; padding-top: 0.8em; border-top: 1px dashed rgba(128,128,128,0.2); }
+      @media (prefers-color-scheme: dark) { .security { color: #8b949e; } }
+    </style>
+  </head>
+  <body>
+    <h2>Kairo 0.3.3 本次更新</h2>
+    <h3>新增</h3>
+    <ul>
+      <li>支持粘贴、拖放和选择 HEIC 与静态 WebP 图片，保留方向与透明度并移除位置等元数据</li>
+      <li>会话默认保留三十天，支持按时间自动清理历史及附件，并可单独清理文件缓存</li>
+      <li>Responses 多轮对话使用本地上下文重放，缺少附件原件时提示开启新会话</li>
+    </ul>
+    <h3>优化</h3>
+    <ul>
+      <li>助手设置支持表单偏好与补充指引，新增 Kairo 身份和能力边界指引，并改善编辑框与保存按钮</li>
+      <li>输入附件支持玻璃标签，消息附件以图标和文件名展示，切换会话和重启后保留文件引用与内容</li>
+      <li>模型连接改用 Responses 对话，保留旧配置与密钥，特殊服务地址可在设置中更新</li>
+      <li>输入框支持文字与文件标签混排、删除撤销，并在首次换行后保持底部操作栏布局</li>
+    </ul>
+    <h3>修复</h3>
+    <ul>
+      <li>阻止回答和历史中的不安全链接在应用内打开</li>
+      <li>附件增删时输入框与消息容器顶部保持固定，消息区域高度直接更新，避免下沉回弹</li>
+      <li>移除历史会话只读限制，文件缓存缺失或清理后仍可继续对话</li>
+      <li>支持从 Finder 复制文件后直接粘贴为对话附件，保留文本粘贴与撤销操作</li>
+      <li>修复对话面板在展开模型与历史菜单时无法增高的问题，调整尺寸期间输入框保持稳定</li>
+      <li>通过菜单或快捷键打开设置时自动隐藏对话面板，再次打开设置也保持一致</li>
+      <li>补充指引输入框获得焦点后隐藏占位提示，避免中文输入法组字时文字重叠</li>
+      <li>设置窗口正确参与台前调度，打开时临时显示 Dock 图标，关闭后恢复菜单栏模式</li>
+      <li>输入面板从单行展开为多行时保持底部固定，避免先下沉再上移</li>
+      <li>输入面板展开时同步调整可见区域，避免多行输入顶部被截断</li>
+    </ul>
+    <div class="security">
+      <p>本更新包由 Apple Developer ID 签名并通过 Apple 公证，支持 arm64 与 x86_64 通用二进制。</p>
+      <p><a href="https://github.com/youranreus/kairo-releases/releases/tag/v0.3.3" target="_blank">在 GitHub Releases 查看完整发布</a></p>
+    </div>
+  </body>
+</html>
