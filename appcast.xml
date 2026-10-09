@@ -3,6 +3,16 @@
     <channel>
         <title>Kairo</title>
         <item>
+            <title>0.3.4</title>
+            <pubDate>Fri, 09 Oct 2026 19:01:33 +0000</pubDate>
+            <sparkle:fullReleaseNotesLink>https://github.com/youranreus/kairo-releases/releases/tag/v0.3.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://youranreus.github.io/kairo-releases/release-notes/Kairo-v0.3.4-macos-universal.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/youranreus/kairo-releases/releases/download/v0.3.4/Kairo-v0.3.4-macos-universal.zip" length="19890214" type="application/octet-stream" sparkle:edSignature="CmW9aJ5gXrpBoYiOZ+N7CIho0K/pJPPRRnvv5GuU0gnLo1uHlTyLVjD3SNVcMXM8cKIKO+yFHFcSGQQdBeseDg=="/>
+        </item>
+        <item>
             <title>0.3.3</title>
             <pubDate>Fri, 02 Oct 2026 02:15:56 +0000</pubDate>
             <sparkle:fullReleaseNotesLink>https://github.com/youranreus/kairo-releases/releases/tag/v0.3.3</sparkle:fullReleaseNotesLink>
