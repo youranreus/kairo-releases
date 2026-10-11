@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kairo 0.3.6 更新说明</title>
+    <style>
+      :root { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; line-height: 1.6; color: #1f2328; background: #ffffff; }
+      @media (prefers-color-scheme: dark) { :root { color: #f0f6fc; background: #0d1117; } }
+      body { max-width: 640px; margin: 0 auto; padding: 20px 24px; }
+      h2 { font-size: 1.15rem; margin-top: 1.4em; border-bottom: 1px solid rgba(128,128,128,0.2); padding-bottom: 0.3em; }
+      h3 { font-size: 0.95rem; color: #57606a; margin-top: 1em; }
+      @media (prefers-color-scheme: dark) { h3 { color: #8b949e; } }
+      ul { padding-left: 20px; margin: 0.4em 0; }
+      li { margin: 0.25em 0; }
+    </style>
+  </head>
+  <body>
+    <h2>Kairo 0.3.6 本次更新</h2>
+    <h3>新增</h3>
+    <ul>
+      <li>历史列表支持回车进入、悬浮操作栏和按内容收缩的删除面板，末项滚动可完整显示</li>
+      <li>历史会话支持搜索标题、问题和回答，并可确认永久删除会话及本地附件</li>
+      <li>支持仅在应用运行期间保留的临时会话，隐藏后继续保留且不写入本地历史</li>
+    </ul>
+    <h3>优化</h3>
+    <ul>
+      <li>新建普通或临时会话无需二次确认，导入中的资源自动清理后切换</li>
+      <li>更新说明仅展示本次版本变更，移除重复的安装与安全提示</li>
+      <li>临时会话改用更清晰的添加资源隐藏图标提示，悬停时显示加号</li>
+    </ul>
+    <h3>修复</h3>
+    <ul>
+      <li>隐藏和自动新对话保留未发送文字及附件，主动新建或退出时确认后再丢弃</li>
+      <li>选择历史命令后光标定位到末尾，可直接输入搜索关键词</li>
+    </ul>
+  </body>
+</html>
